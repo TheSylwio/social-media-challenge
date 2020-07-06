@@ -140,6 +140,35 @@ h1, h2 {
     }
   }
 
+  .card--sm {
+    font-weight: 700;
+    padding: 1em;
+
+    .card-top {
+      padding: 1em;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .card-top-title {
+        color: #878B95;
+      }
+    }
+
+    .card-bottom {
+      padding: 1em;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .card-bottom-stats {
+        font-size: 2rem;
+      }
+    }
+  }
+
   .card--facebook {
     border-top: 3px solid hsl(195, 100%, 50%);
   }
