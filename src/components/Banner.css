@@ -1,0 +1,64 @@
+.banner {
+  color: #666977;
+  font-weight: 700;
+}
+
+.banner__info {
+  padding: .5em 0;
+}
+
+.banner__info--primary {
+  font-size: 1.6em;
+  color: black;
+}
+
+.banner__info--secondary {
+  font-size: 1em;
+}
+
+.banner__toggle {
+  padding: .5em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle__wrapper {
+  position: relative;
+  width: 2.6em;
+  height: 1.5em;
+}
+
+.toggle__button {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.toggle__button:before {
+  content: '';
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: hsl(230, 22%, 74%);
+  border-radius: 50px;
+}
+
+.toggle__button:after {
+  content: '';
+  visibility: visible;
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  right: 4px;
+  bottom: 4px;
+  background: #FFFFFF;
+  border-radius: 50px;
+}
+
+.toggle__button:hover + .toggle__button:before {
+  background: #2196F3;
+}
