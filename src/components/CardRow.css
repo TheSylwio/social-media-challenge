@@ -1,0 +1,12 @@
+.cardRow {
+  padding: 1.5em 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 600px) {
+  .cardRow {
+    flex-direction: row;
+  }
+}
