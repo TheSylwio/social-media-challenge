@@ -1,0 +1,20 @@
+.card--small {
+  font-weight: 700;
+  padding: 1em;
+}
+
+.card__row {
+  padding: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__title {
+  color: #878B95;
+}
+
+.card__number {
+  font-size: 2rem;
+}

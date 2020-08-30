@@ -1,0 +1,81 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  background: #F0F3FA;
+  border-radius: 3px;
+  width: 25%;
+}
+
+.card__title {
+  padding: 1rem 0;
+  font-weight: 700;
+  color: #666977;
+  display: flex;
+  align-items: center;
+}
+
+.card__title span {
+  margin-left: .5rem;
+  font-size: .7em;
+}
+
+.card__counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter__number {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.counter__description {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #9294A0;
+}
+
+.card__stats {
+  padding: 1.5rem 0;
+  font-size: .7em;
+  font-weight: 700;
+}
+
+.card__stats--success {
+  color: hsl(163, 72%, 41%);
+}
+
+.card__stats--warning {
+  color: hsl(356, 69%, 56%);
+}
+
+.card--facebook {
+  border-top: 3px solid hsl(195, 100%, 50%);
+}
+
+.card--twitter {
+  border-top: 3px solid hsl(203, 89%, 53%);
+}
+
+.card--instagram {
+  /*TODO: Round corners*/
+  border-top: 3px solid;
+  border-image-source: linear-gradient(45deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  border-image-slice: 1;
+}
+
+.card--youtube {
+  border-top: 3px solid hsl(348, 97%, 39%);
+}
+
+@media (min-width: 600px) {
+  .card {
+    margin: .2em;
+    width: calc(70vw / 4 - 1.2em);
+  }
+}

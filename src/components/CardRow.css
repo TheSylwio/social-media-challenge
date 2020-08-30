@@ -1,0 +1,19 @@
+.cardRow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cardRow__header {
+  margin: 1em 0;
+  color: #5D5E70;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+@media (min-width: 600px) {
+  .cardRow {
+    flex-direction: row;
+  }
+}
