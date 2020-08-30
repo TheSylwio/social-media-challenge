@@ -5,20 +5,6 @@ import './Card.css';
 
 function Card(props) {
   return (
-    // <div className="card card--facebook">
-    //   <div className="card-title">
-    //     <img src="src/assets/icon-facebook.svg" alt="">
-    //       <span className="username">@nathanf</span>
-    //   </div>
-    //   <div className="card-count">
-    //     <span className="count">1987</span>
-    //     <span className="subtitle">Followers</span>
-    //   </div>
-    //   <div className="card-difference success">
-    //     <img src="src/assets/icon-up.svg" alt="">
-    //       <span>12 Today</span>
-    //   </div>
-    // </div>
     <div className='card'>
       <div className="card__title">
         <img src={props.icon} alt=""/>
