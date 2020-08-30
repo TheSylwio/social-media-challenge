@@ -54,6 +54,25 @@
   color: hsl(356, 69%, 56%);
 }
 
+.card--facebook {
+  border-top: 3px solid hsl(195, 100%, 50%);
+}
+
+.card--twitter {
+  border-top: 3px solid hsl(203, 89%, 53%);
+}
+
+.card--instagram {
+  /*TODO: Round corners*/
+  border-top: 3px solid;
+  border-image-source: linear-gradient(45deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  border-image-slice: 1;
+}
+
+.card--youtube {
+  border-top: 3px solid hsl(348, 97%, 39%);
+}
+
 @media (min-width: 600px) {
   .card {
     margin: .2em;
