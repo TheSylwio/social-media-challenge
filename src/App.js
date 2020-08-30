@@ -43,11 +43,70 @@ function App() {
     }
   ]
 
+  const smallCards = [
+    {
+      icon: IconFacebook,
+      title: 'Page Views',
+      number: '87',
+      difference: '3%',
+      isSuccess: true
+    },
+    {
+      icon: IconFacebook,
+      title: 'Likes',
+      number: '52',
+      difference: '2%',
+      isSuccess: false
+    },
+    {
+      icon: IconInstagram,
+      title: 'Likes',
+      number: '5462',
+      difference: '2257%',
+      isSuccess: true
+    },
+    {
+      icon: IconInstagram,
+      title: 'Profile Views',
+      number: '52k',
+      difference: '1375%',
+      isSuccess: true
+    },
+    {
+      icon: IconTwitter,
+      title: 'Retweets',
+      number: '117',
+      difference: '303%',
+      isSuccess: true
+    },
+    {
+      icon: IconTwitter,
+      title: 'Likes',
+      number: '507',
+      difference: '553%',
+      isSuccess: true
+    },
+    {
+      icon: IconYoutube,
+      title: 'Likes',
+      number: '107',
+      difference: '19%',
+      isSuccess: false
+    },
+    {
+      icon: IconYoutube,
+      title: 'Total Views',
+      number: '1407',
+      difference: '12%',
+      isSuccess: false
+    }
+  ];
+
   return (
     <div className='app'>
       <Banner/>
       <CardRow cards={bigCards}/>
-      <CardRow cards={bigCards} header='Overview - Today' smallCards/>
+      <CardRow cards={smallCards} header='Overview - Today' smallCards/>
     </div>
   );
 }
