@@ -3,6 +3,15 @@
     padding: 1.5em;
 }
 
+.app--dark {
+    background: #20222F;
+    color: #FFFFFF;
+}
+
+.app--dark .card {
+    background: #252b43;
+}
+
 @media (min-width: 600px) {
     .app {
         width: 70vw;

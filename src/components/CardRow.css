@@ -12,6 +12,10 @@
   font-size: 1.5em;
 }
 
+.app--dark .cardRow__header {
+  color: white;
+}
+
 @media (min-width: 600px) {
   .cardRow {
     flex-direction: row;

@@ -1,7 +1,7 @@
 import React from "react";
 import './Banner.css';
 
-function Banner() {
+function Banner({changeTheme}) {
   return (
     <div className='banner'>
       <div className="banner__info">
@@ -12,7 +12,8 @@ function Banner() {
       <div className="banner__toggle">
         <label htmlFor="darkModeButton">Dark Mode</label>
         <div className="toggle__wrapper">
-          <input id="darkModeButton" className="toggle__button" type="checkbox"/>
+          <input id="darkModeButton" className="toggle__button" type="checkbox"
+                 onClick={changeTheme}/>
         </div>
       </div>
     </div>
