@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/social-media-challenge/static/css/main.9a1d342b.chunk.css",
+    "main.js": "/social-media-challenge/static/js/main.8f416b8f.chunk.js",
+    "main.js.map": "/social-media-challenge/static/js/main.8f416b8f.chunk.js.map",
+    "runtime-main.js": "/social-media-challenge/static/js/runtime-main.50d486dc.js",
+    "runtime-main.js.map": "/social-media-challenge/static/js/runtime-main.50d486dc.js.map",
+    "static/js/2.38b55739.chunk.js": "/social-media-challenge/static/js/2.38b55739.chunk.js",
+    "static/js/2.38b55739.chunk.js.map": "/social-media-challenge/static/js/2.38b55739.chunk.js.map",
+    "index.html": "/social-media-challenge/index.html",
+    "precache-manifest.eddb60676f4292b1749e5385afba648f.js": "/social-media-challenge/precache-manifest.eddb60676f4292b1749e5385afba648f.js",
+    "service-worker.js": "/social-media-challenge/service-worker.js",
+    "static/css/main.9a1d342b.chunk.css.map": "/social-media-challenge/static/css/main.9a1d342b.chunk.css.map",
+    "static/js/2.38b55739.chunk.js.LICENSE.txt": "/social-media-challenge/static/js/2.38b55739.chunk.js.LICENSE.txt",
+    "static/media/icon-down.svg": "/social-media-challenge/static/media/icon-down.69a5c77f.svg",
+    "static/media/icon-facebook.svg": "/social-media-challenge/static/media/icon-facebook.a7383764.svg",
+    "static/media/icon-instagram.svg": "/social-media-challenge/static/media/icon-instagram.991487fe.svg",
+    "static/media/icon-twitter.svg": "/social-media-challenge/static/media/icon-twitter.810ccee8.svg",
+    "static/media/icon-up.svg": "/social-media-challenge/static/media/icon-up.95f916a5.svg",
+    "static/media/icon-youtube.svg": "/social-media-challenge/static/media/icon-youtube.8499da12.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50d486dc.js",
+    "static/js/2.38b55739.chunk.js",
+    "static/css/main.9a1d342b.chunk.css",
+    "static/js/main.8f416b8f.chunk.js"
+  ]
+}
