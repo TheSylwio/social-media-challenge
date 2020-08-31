@@ -5,11 +5,11 @@
 
 .app--dark {
     background: #20222F;
-    color: white;
+    color: #FFFFFF;
 }
 
 .app--dark .card {
-    background: #252B43;
+    background: #252b43;
 }
 
 @media (min-width: 600px) {

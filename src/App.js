@@ -106,7 +106,7 @@ function App() {
 
   const changeTheme = () => {
     toggleDarkMode(prevState => !prevState);
-    document.body.style.background = darkMode ? 'none' : '#20222F';
+    document.body.style.background = darkMode ? '' : '#20222F';
   }
 
   return (

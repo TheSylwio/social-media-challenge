@@ -51,6 +51,10 @@
   border-radius: 50px;
 }
 
+.app--dark .toggle__button:before {
+  background: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
 .toggle__button:after {
   content: '';
   visibility: visible;
@@ -61,6 +65,12 @@
   bottom: 4px;
   background: #FFFFFF;
   border-radius: 50px;
+  transition: transform .5s;
+}
+
+.app--dark .toggle__button:after {
+  transition: transform .5s;
+  transform: translateX(-15px);
 }
 
 .toggle__button:hover + .toggle__button:before {
