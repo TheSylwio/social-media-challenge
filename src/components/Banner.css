@@ -12,6 +12,10 @@
   color: black;
 }
 
+.app--dark .banner__info--primary {
+  color: white;
+}
+
 .banner__info--secondary {
   font-size: 1em;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Banner from "./components/Banner";
 import CardRow from "./components/CardRow";
 import './App.css';
@@ -102,9 +102,16 @@ function App() {
     }
   ];
 
+  const [darkMode, toggleDarkMode] = useState(false)
+
+  const changeTheme = () => {
+    toggleDarkMode(prevState => !prevState);
+    document.body.style.background = darkMode ? 'none' : '#20222F';
+  }
+
   return (
-    <div className='app'>
-      <Banner/>
+    <div className={`app${darkMode ? ' app--dark' : ''}`}>
+      <Banner changeTheme={changeTheme}/>
       <CardRow cards={bigCards}/>
       <CardRow cards={smallCards} header='Overview - Today' smallCards/>
     </div>
